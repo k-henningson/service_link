@@ -20,5 +20,4 @@ const SelectedTodo: React.FC<TodoProps> = ({content}) => {
         </div>
     )
 }
-// when a TodoListItem is selected, make it visually differentiable to the rest of the items in the list. This way the user knows what they are editing.
 export default SelectedTodo;
